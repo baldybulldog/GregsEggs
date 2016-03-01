@@ -20,7 +20,7 @@ namespace TestSite.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Legs()
         {
             ViewData["Message"] = "Your contact page.";
 
