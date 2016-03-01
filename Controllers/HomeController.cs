@@ -13,7 +13,7 @@ namespace TestSite.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Tech()
         {
             ViewData["Message"] = "Your application description page.";
 
