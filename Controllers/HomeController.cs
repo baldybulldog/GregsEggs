@@ -15,14 +15,14 @@ namespace TestSite.Controllers
 
         public IActionResult Tech()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Will it work?";
 
             return View();
         }
 
         public IActionResult Legs()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "I'll never be Usain Bolt or Mo Farah...";
 
             return View();
         }
